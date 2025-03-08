@@ -1,0 +1,472 @@
+{
+  "sections": [
+    {
+      "id": "appetizers",
+      "name": "Appetizers",
+      "recipes": [
+        {
+          "title": "Thyme and Garlic Cheese Dip",
+          "link": ""
+        },
+        {
+          "title": "Crab Cakes with Creamy Shrimp Sauce",
+          "link": ""
+        },
+        {
+          "title": "Candied Curried Pecans",
+          "link": ""
+        },
+        {
+          "title": "Sweet and Spicy Nuts",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "soup-salad",
+      "name": "Soups and Salads",
+      "recipes": [
+        {
+          "title": "Spiced Pumpkin Soup",
+          "link": ""
+        },
+        {
+          "title": "Cabbage Soup with Apples and Thyme",
+          "link": ""
+        },
+        {
+          "title": "Spiced Pumpkin Soup",
+          "link": ""
+        },
+        {
+          "title": "Arugula Salad with Oranges and Goat Cheese",
+          "link": ""
+        },
+        {
+          "title": "Brandy-spiked Squash Soup with Cinnamon",
+          "link": ""
+        },
+        {
+          "title": "Waldorf Salad in Radicchio Cups",
+          "link": ""
+        },
+        {
+          "title": "Creamy Roasted Mushroom Soup",
+          "link": ""
+        },
+        {
+          "title": "Blue Cheese Shortbread with Cream Cheese Roulade",
+          "link": ""
+        },
+        {
+          "title": "Spicy Two-bean Vegetarian Chili",
+          "link": ""
+        },
+        {
+          "title": "Potato-leek Soup with Cheese",
+          "link": ""
+        },
+        {
+          "title": "Vegetable-cheese Soup",
+          "link": ""
+        },
+        {
+          "title": "Warm Endive Salad with Parmesan and Hazelnuts",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "breads",
+      "name": "Breads",
+      "recipes": [
+        {
+          "title": "Spiced Pumpkin Muffins",
+          "link": ""
+        },
+        {
+          "title": "Whole Wheat Porcini Soda Bread",
+          "link": ""
+        },
+        {
+          "title": "Blue Cheese Buttermilk Biscuits",
+          "link": ""
+        },
+        {
+          "title": "Caramelized Onion and Parmesan Cream Scones",
+          "link": ""
+        },
+        {
+          "title": "Honeyed Chestnut Corn Bread",
+          "link": ""
+        },
+        {
+          "title": "Sweet Potato and Apple Bread",
+          "link": ""
+        },
+        {
+          "title": "Roasted Red Pepper Corn Bread",
+          "link": ""
+        },
+        {
+          "title": "Quick Buttermilk Cornbread",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "main-dishes",
+      "name": "Main Dishes",
+      "recipes": [
+        {
+          "title": "Pork, Beef, and Black Bean Chili",
+          "link": ""
+        },
+        {
+          "title": "Chicken Fettuccine with Nuts and Dill",
+          "link": ""
+        },
+        {
+          "title": "Florentine White Bean Soup with Pasta",
+          "link": ""
+        },
+        {
+          "title": "Maple and Walnut Chicken with Pancetta Mashed Potatoes",
+          "link": ""
+        },
+        {
+          "title": "Skirt Steak with Shallots and Potatoes",
+          "link": ""
+        },
+        {
+          "title": "Rib-eye Steak with Country Vegetables",
+          "link": ""
+        },
+        {
+          "title": "Stuffed Turkey Breast",
+          "link": ""
+        },
+        {
+          "title": "Butterflied Leg of Lamb",
+          "link": ""
+        },
+        {
+          "title": "Red Snapper with Thyme, Tomatoes, and Olives",
+          "link": ""
+        },
+        {
+          "title": "Roast Turkey with Herb Butter and Gravy",
+          "link": ""
+        },
+        {
+          "title": "Orange and Mustard Turkey with Apple Cider Gravy",
+          "link": ""
+        },
+        {
+          "title": "Molasses-brined Turkey with Gingersnap Gravy",
+          "link": ""
+        },
+        {
+          "title": "Porcini-rubbed Turkey with Shiitake-Madeira Gravy",
+          "link": ""
+        },
+        {
+          "title": "Chili-rubbed Roast Turkey with Chili-butter Gravy",
+          "link": ""
+        },
+        {
+          "title": "Gingered Spareribs with Brown Sugar and Soy",
+          "link": ""
+        },
+        {
+          "title": "Seared Scallops with Lemon and Dill",
+          "link": ""
+        },
+        {
+          "title": "Shepherd's Pie",
+          "link": ""
+        },
+        {
+          "title": "Pan-fried steak in Cognac-peppercorn Sauce",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "side-dishes",
+      "name": "Side Dishes",
+      "recipes": [
+        {
+          "title": "Polenta with Bacon and Fontina",
+          "link": "https://www.bonappetit.com/recipe/polenta-with-bacon-and-fontina"
+        },
+        {
+          "title": "Cassis-spiked Cranberry Sauce",
+          "link": ""
+        },
+        {
+          "title": "Turkey Stock",
+          "link": ""
+        },
+        {
+          "title": "Roasted Root Vegetables with Vinaigrette",
+          "link": ""
+        },
+        {
+          "title": "Brussels Sprouts with Horseradish Cream",
+          "link": ""
+        },
+        {
+          "title": "Maple- and Tangerine-glazed Carrots",
+          "link": ""
+        },
+        {
+          "title": "Corn, Chili, and Cumin Saute",
+          "link": ""
+        },
+        {
+          "title": "Broccoli Gratin with Mustard-Cheese Streusel",
+          "link": ""
+        },
+        {
+          "title": "Peas and Turnips with Bacon and Dill Butter",
+          "link": ""
+        },
+        {
+          "title": "Green Beans with Orange and Rosemary Gremolata",
+          "link": ""
+        },
+        {
+          "title": "Wild Mushrooms with Chestnuts and Thyme",
+          "link": ""
+        },
+        {
+          "title": "Butternut Squash Puree",
+          "link": ""
+        },
+        {
+          "title": "Parsnips and Celery Root with Nutmeg",
+          "link": ""
+        },
+        {
+          "title": "Cranberry, Tangerine, and Ginger Relish",
+          "link": ""
+        },
+        {
+          "title": "Cranberry Sauce with Apricots and Cardamom",
+          "link": ""
+        },
+        {
+          "title": "Cranberry and Dried-cherry Sauce",
+          "link": ""
+        },
+        {
+          "title": "Cranberry Sauce with Roasted Shallots and Port",
+          "link": ""
+        },
+        {
+          "title": "Green Beans with Pine Nuts and Basil",
+          "link": ""
+        },
+        {
+          "title": "Three-pepper Calabacitas",
+          "link": ""
+        },
+        {
+          "title": "Cranberry-orange Relish with Mint",
+          "link": ""
+        },
+        {
+          "title": "Pecan and Pine Nut Pie",
+          "link": ""
+        },
+        {
+          "title": "Waffles with Frizzled(?) Ham and Cream",
+          "link": ""
+        },
+        {
+          "title": "Sausage-stuffed Mushrooms",
+          "link": ""
+        },
+        {
+          "title": "Roasted Vegetable Succotash",
+          "link": ""
+        },
+        {
+          "title": "Wild Rice Pilaf with Squash and Cranberries",
+          "link": ""
+        },
+        {
+          "title": "Mushroom and Gruyere Bread Pudding",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "stuffing",
+      "name": "Stuffing",
+      "recipes": [
+        {
+          "title": "Sweet Potato and Roasted Mushroom Stuffing",
+          "link": ""
+        },
+        {
+          "title": "Apple and Sausage Stuffing",
+          "link": ""
+        },
+        {
+          "title": "Winter Fruit and Nut Stuffing",
+          "link": ""
+        },
+        {
+          "title": "Leek and Mushroom Stuffing",
+          "link": ""
+        },
+        {
+          "title": "Chestnut, Bacon, and Apple Corn Bread Stuffing",
+          "link": ""
+        },
+        {
+          "title": "Corn Bread Dressing with Ham, Fennel, and Carrots",
+          "link": ""
+        },
+        {
+          "title": "Artichoke, Sausage, and Parmesan Stuffing",
+          "link": ""
+        },
+        {
+          "title": "Chorizo, Squash, and Jalapeno Corn Bread Stuffing",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "pot8o",
+      "name": "Potatoes",
+      "recipes": [
+        {
+          "title": "Sweet Potato Puree with Ginger and Cider",
+          "link": ""
+        },
+        {
+          "title": "Roasted Sweet Potatoes with Onions and Parmesan",
+          "link": ""
+        },
+        {
+          "title": "Baked Sweet Potatoes Stuffed with Fruit and Nuts",
+          "link": ""
+        },
+        {
+          "title": "Twice-baked Potato Cups with Shallots",
+          "link": ""
+        },
+        {
+          "title": "Fennel-Scented Mashed Potatoes",
+          "link": ""
+        },
+        {
+          "title": "Red Potatoes with Garlic Butter, Sage, and Bacon",
+          "link": ""
+        },
+        {
+          "title": "Mashed Potatoes with Blue Cheese and Rosemary",
+          "link": ""
+        },
+        {
+          "title": "Potato Gratin with Gruyere and Creme Fraiche",
+          "link": ""
+        },
+        {
+          "title": "Spiced Whipped Sweet Potatoes with Brown Sugar",
+          "link": ""
+        },
+        {
+          "title": "Mashed Potatoes and Parsnips",
+          "link": ""
+        },
+        {
+          "title": "Buttery Mashed Potatoes",
+          "link": ""
+        }
+      ]
+    },
+    {
+      "id": "desserts",
+      "name": "Desserts",
+      "recipes": [
+        {
+          "title": "Eccles Cakes",
+          "link": "https://www.bonappetit.com/recipe/eccles-cakes"
+        },
+        {
+          "title": "Gingerbread-Molasses Pancakes",
+          "link": ""
+        },
+        {
+          "title": "Chocolate Chip Bread Pudding",
+          "link": ""
+        },
+        {
+          "title": "Chocolate Souffles",
+          "link": ""
+        },
+        {
+          "title": "Apple Strudel with Walnuts and Rasins",
+          "link": ""
+        },
+        {
+          "title": "Pumpkin and Pecan Semifreddo with Caramel Sauce",
+          "link": ""
+        },
+        {
+          "title": "Apple Pie with Hazelnuts and Cherries",
+          "link": ""
+        },
+        {
+          "title": "Caramel Walnut Tart with Chocolate Glaze",
+          "link": ""
+        },
+        {
+          "title": "Cheesecake Tart with Cranberry Port Glaze",
+          "link": ""
+        },
+        {
+          "title": "Sour Cream Maple Cake with Lemon Glaze",
+          "link": ""
+        },
+        {
+          "title": "Pumpkin Meringue Pie",
+          "link": ""
+        },
+        {
+          "title": "Maple Creme Flan with Pears",
+          "link": ""
+        },
+        {
+          "title": "Gingerbread Cake with Cream Cheese Frosting",
+          "link": ""
+        },
+        {
+          "title": "Sweet Potato Tart with Pecans and Marshmallows",
+          "link": ""
+        },
+        {
+          "title": "Pear-cranberry Crisp",
+          "link": ""
+        },
+        {
+          "title": "Cinnamon Ice Cream",
+          "link": ""
+        },
+        {
+          "title": "Pumpkin Chiffon Pie in Gingersnap Crust",
+          "link": ""
+        },
+        {
+          "title": "Banana Layer Cake with White Chocolate Frosting",
+          "link": ""
+        }
+      ]
+    }
+  ]
+}

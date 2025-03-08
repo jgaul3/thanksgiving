@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanksgiving Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Thanksgiving Recipes</h1>
+    <div class="search-container">
+      <input type="text" id="searchInput" placeholder="Search recipes...">
+    </div>
+  </header>
+
+  <div class="container">
+    <div class="sidebar">
+      <h2>Categories</h2>
+      <ul id="categories">
+        <li><a href="#favorites">Favorites</a></li>
+        <li><a href="#appetizers">Appetizers</a></li>
+<li><a href="#soup-salad">Soups and Salads</a></li>
+<li><a href="#breads">Breads</a></li>
+<li><a href="#main-dishes">Main Dishes</a></li>
+<li><a href="#side-dishes">Side Dishes</a></li>
+<li><a href="#stuffing">Stuffing</a></li>
+<li><a href="#pot8o">Potatoes</a></li>
+<li><a href="#desserts">Desserts</a></li>
+      </ul>
+    </div>
+
+    <div class="main-content">
+      <section id="favorites" class="section favorites-section">
+        <h2>Favorites</h2>
+        <ul id="favorites-list" class="recipe-list">
+          <!-- Favorites will be added here dynamically -->
+        </ul>
+      </section>
+      <section id="appetizers" class="section">
+<h2>Appetizers</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="appetizers0">
+  <a href=# class="recipe-link">Candied Curried Pecans</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="appetizers1">
+  <a href=# class="recipe-link">Crab Cakes with Creamy Shrimp Sauce</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="appetizers2">
+  <a href=# class="recipe-link">Sweet and Spicy Nuts</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="appetizers3">
+  <a href=# class="recipe-link">Thyme and Garlic Cheese Dip</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+<section id="soup-salad" class="section">
+<h2>Soups and Salads</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="soup-salad0">
+  <a href=# class="recipe-link">Arugula Salad with Oranges and Goat Cheese</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad1">
+  <a href=# class="recipe-link">Blue Cheese Shortbread with Cream Cheese Roulade</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad2">
+  <a href=# class="recipe-link">Brandy-spiked Squash Soup with Cinnamon</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad3">
+  <a href=# class="recipe-link">Cabbage Soup with Apples and Thyme</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad4">
+  <a href=# class="recipe-link">Creamy Roasted Mushroom Soup</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad5">
+  <a href=# class="recipe-link">Potato-leek Soup with Cheese</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad6">
+  <a href=# class="recipe-link">Spiced Pumpkin Soup</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad7">
+  <a href=# class="recipe-link">Spiced Pumpkin Soup</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad8">
+  <a href=# class="recipe-link">Spicy Two-bean Vegetarian Chili</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad9">
+  <a href=# class="recipe-link">Vegetable-cheese Soup</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad10">
+  <a href=# class="recipe-link">Waldorf Salad in Radicchio Cups</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="soup-salad11">
+  <a href=# class="recipe-link">Warm Endive Salad with Parmesan and Hazelnuts</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+<section id="breads" class="section">
+<h2>Breads</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="breads0">
+  <a href=# class="recipe-link">Blue Cheese Buttermilk Biscuits</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="breads1">
+  <a href=# class="recipe-link">Caramelized Onion and Parmesan Cream Scones</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="breads2">
+  <a href=# class="recipe-link">Honeyed Chestnut Corn Bread</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="breads3">
+  <a href=# class="recipe-link">Quick Buttermilk Cornbread</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="breads4">
+  <a href=# class="recipe-link">Roasted Red Pepper Corn Bread</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="breads5">
+  <a href=# class="recipe-link">Spiced Pumpkin Muffins</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="breads6">
+  <a href=# class="recipe-link">Sweet Potato and Apple Bread</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="breads7">
+  <a href=# class="recipe-link">Whole Wheat Porcini Soda Bread</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+<section id="main-dishes" class="section">
+<h2>Main Dishes</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="main-dishes0">
+  <a href=# class="recipe-link">Butterflied Leg of Lamb</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes1">
+  <a href=# class="recipe-link">Chicken Fettuccine with Nuts and Dill</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes2">
+  <a href=# class="recipe-link">Chili-rubbed Roast Turkey with Chili-butter Gravy</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes3">
+  <a href=# class="recipe-link">Florentine White Bean Soup with Pasta</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes4">
+  <a href=# class="recipe-link">Gingered Spareribs with Brown Sugar and Soy</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes5">
+  <a href=# class="recipe-link">Maple and Walnut Chicken with Pancetta Mashed Potatoes</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes6">
+  <a href=# class="recipe-link">Molasses-brined Turkey with Gingersnap Gravy</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes7">
+  <a href=# class="recipe-link">Orange and Mustard Turkey with Apple Cider Gravy</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes8">
+  <a href=# class="recipe-link">Pan-fried steak in Cognac-peppercorn Sauce</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes9">
+  <a href=# class="recipe-link">Porcini-rubbed Turkey with Shiitake-Madeira Gravy</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes10">
+  <a href=# class="recipe-link">Pork, Beef, and Black Bean Chili</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes11">
+  <a href=# class="recipe-link">Red Snapper with Thyme, Tomatoes, and Olives</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes12">
+  <a href=# class="recipe-link">Rib-eye Steak with Country Vegetables</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes13">
+  <a href=# class="recipe-link">Roast Turkey with Herb Butter and Gravy</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes14">
+  <a href=# class="recipe-link">Seared Scallops with Lemon and Dill</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes15">
+  <a href=# class="recipe-link">Shepherd's Pie</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes16">
+  <a href=# class="recipe-link">Skirt Steak with Shallots and Potatoes</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="main-dishes17">
+  <a href=# class="recipe-link">Stuffed Turkey Breast</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+<section id="side-dishes" class="section">
+<h2>Side Dishes</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="side-dishes0">
+  <a href=# class="recipe-link">Broccoli Gratin with Mustard-Cheese Streusel</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes1">
+  <a href=# class="recipe-link">Brussels Sprouts with Horseradish Cream</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes2">
+  <a href=# class="recipe-link">Butternut Squash Puree</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes3">
+  <a href=# class="recipe-link">Cassis-spiked Cranberry Sauce</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes4">
+  <a href=# class="recipe-link">Corn, Chili, and Cumin Saute</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes5">
+  <a href=# class="recipe-link">Cranberry Sauce with Apricots and Cardamom</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes6">
+  <a href=# class="recipe-link">Cranberry Sauce with Roasted Shallots and Port</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes7">
+  <a href=# class="recipe-link">Cranberry and Dried-cherry Sauce</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes8">
+  <a href=# class="recipe-link">Cranberry, Tangerine, and Ginger Relish</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes9">
+  <a href=# class="recipe-link">Cranberry-orange Relish with Mint</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes10">
+  <a href=# class="recipe-link">Green Beans with Orange and Rosemary Gremolata</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes11">
+  <a href=# class="recipe-link">Green Beans with Pine Nuts and Basil</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes12">
+  <a href=# class="recipe-link">Maple- and Tangerine-glazed Carrots</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes13">
+  <a href=# class="recipe-link">Mushroom and Gruyere Bread Pudding</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes14">
+  <a href=# class="recipe-link">Parsnips and Celery Root with Nutmeg</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes15">
+  <a href=# class="recipe-link">Peas and Turnips with Bacon and Dill Butter</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes16">
+  <a href=# class="recipe-link">Pecan and Pine Nut Pie</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes17">
+  <a href=recipes/polenta-with-bacon-and-fontina.html class="recipe-link">Polenta with Bacon and Fontina</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes18">
+  <a href=# class="recipe-link">Roasted Root Vegetables with Vinaigrette</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes19">
+  <a href=# class="recipe-link">Roasted Vegetable Succotash</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes20">
+  <a href=# class="recipe-link">Sausage-stuffed Mushrooms</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes21">
+  <a href=# class="recipe-link">Three-pepper Calabacitas</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes22">
+  <a href=# class="recipe-link">Turkey Stock</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes23">
+  <a href=# class="recipe-link">Waffles with Frizzled(?) Ham and Cream</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes24">
+  <a href=# class="recipe-link">Wild Mushrooms with Chestnuts and Thyme</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="side-dishes25">
+  <a href=# class="recipe-link">Wild Rice Pilaf with Squash and Cranberries</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+<section id="stuffing" class="section">
+<h2>Stuffing</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="stuffing0">
+  <a href=# class="recipe-link">Apple and Sausage Stuffing</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="stuffing1">
+  <a href=# class="recipe-link">Artichoke, Sausage, and Parmesan Stuffing</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="stuffing2">
+  <a href=# class="recipe-link">Chestnut, Bacon, and Apple Corn Bread Stuffing</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="stuffing3">
+  <a href=# class="recipe-link">Chorizo, Squash, and Jalapeno Corn Bread Stuffing</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="stuffing4">
+  <a href=# class="recipe-link">Corn Bread Dressing with Ham, Fennel, and Carrots</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="stuffing5">
+  <a href=# class="recipe-link">Leek and Mushroom Stuffing</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="stuffing6">
+  <a href=# class="recipe-link">Sweet Potato and Roasted Mushroom Stuffing</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="stuffing7">
+  <a href=# class="recipe-link">Winter Fruit and Nut Stuffing</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+<section id="pot8o" class="section">
+<h2>Potatoes</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="pot8o0">
+  <a href=# class="recipe-link">Baked Sweet Potatoes Stuffed with Fruit and Nuts</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o1">
+  <a href=# class="recipe-link">Buttery Mashed Potatoes</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o2">
+  <a href=# class="recipe-link">Fennel-Scented Mashed Potatoes</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o3">
+  <a href=# class="recipe-link">Mashed Potatoes and Parsnips</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o4">
+  <a href=# class="recipe-link">Mashed Potatoes with Blue Cheese and Rosemary</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o5">
+  <a href=# class="recipe-link">Potato Gratin with Gruyere and Creme Fraiche</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o6">
+  <a href=# class="recipe-link">Red Potatoes with Garlic Butter, Sage, and Bacon</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o7">
+  <a href=# class="recipe-link">Roasted Sweet Potatoes with Onions and Parmesan</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o8">
+  <a href=# class="recipe-link">Spiced Whipped Sweet Potatoes with Brown Sugar</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o9">
+  <a href=# class="recipe-link">Sweet Potato Puree with Ginger and Cider</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="pot8o10">
+  <a href=# class="recipe-link">Twice-baked Potato Cups with Shallots</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+<section id="desserts" class="section">
+<h2>Desserts</h2>
+<ul class="recipe-list">
+  <li class="recipe-item" data-recipe-id="desserts0">
+  <a href=# class="recipe-link">Apple Pie with Hazelnuts and Cherries</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts1">
+  <a href=# class="recipe-link">Apple Strudel with Walnuts and Rasins</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts2">
+  <a href=# class="recipe-link">Banana Layer Cake with White Chocolate Frosting</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts3">
+  <a href=# class="recipe-link">Caramel Walnut Tart with Chocolate Glaze</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts4">
+  <a href=# class="recipe-link">Cheesecake Tart with Cranberry Port Glaze</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts5">
+  <a href=# class="recipe-link">Chocolate Chip Bread Pudding</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts6">
+  <a href=# class="recipe-link">Chocolate Souffles</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts7">
+  <a href=# class="recipe-link">Cinnamon Ice Cream</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts8">
+  <a href=recipes/eccles-cakes.html class="recipe-link">Eccles Cakes</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts9">
+  <a href=# class="recipe-link">Gingerbread Cake with Cream Cheese Frosting</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts10">
+  <a href=# class="recipe-link">Gingerbread-Molasses Pancakes</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts11">
+  <a href=# class="recipe-link">Maple Creme Flan with Pears</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts12">
+  <a href=# class="recipe-link">Pear-cranberry Crisp</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts13">
+  <a href=# class="recipe-link">Pumpkin Chiffon Pie in Gingersnap Crust</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts14">
+  <a href=# class="recipe-link">Pumpkin Meringue Pie</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts15">
+  <a href=# class="recipe-link">Pumpkin and Pecan Semifreddo with Caramel Sauce</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts16">
+  <a href=# class="recipe-link">Sour Cream Maple Cake with Lemon Glaze</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+<li class="recipe-item" data-recipe-id="desserts17">
+  <a href=# class="recipe-link">Sweet Potato Tart with Pecans and Marshmallows</a>
+  <button class="favorite-btn text-xl">❤</button>
+</li>
+
+</ul>
+</section>
+
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

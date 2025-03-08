@@ -1,0 +1,250 @@
+/* Base styling and variables */
+:root {
+  --primary-color: #B85C38;
+  --secondary-color: #E09132;
+  --background-color: #FFF8F0;
+  --text-color: #2C2C2C;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  line-height: 1.6;
+  min-height: 100vh;
+}
+
+/* Header Styling */
+header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  margin-inside: 1rem;
+}
+
+h1 {
+  display: flex;
+}
+
+.search-container {
+  /*margin: 1rem;*/
+  display: flex;
+  margin: 0 0 0 auto;
+}
+
+#searchInput {
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
+  flex-grow: 1;
+  font-size: 1rem;
+}
+
+/* Main Content Layout */
+.container {
+  display: flex;
+  flex: 1;
+}
+
+/* Sidebar - Sticky positioning */
+.sidebar {
+  background-color: #f5f5f5;
+  padding: 1.5rem;
+  position: sticky;
+  /* Position it right below the header when scrolling */
+  top: 100px;
+  /* Make it self-contained for scrolling */
+  align-self: flex-start;
+  height: 100vh;
+  overflow-y: auto;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  width: auto;
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.sidebar h2 {
+  color: var(--primary-color);
+  position: sticky;
+  top: 0;
+  background-color: #f5f5f5;
+  padding-bottom: 0.5rem;
+  z-index: 10;
+}
+
+.sidebar ul {
+  list-style: none;
+}
+
+.sidebar li {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: var(--text-color);
+  display: block;
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  white-space: nowrap;
+}
+
+.sidebar a:hover {
+  background-color: rgba(184, 92, 56, 0.1);
+}
+
+/* Main Content Area */
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  overflow-y: auto;
+}
+
+/* Section Styling */
+.section {
+  margin-bottom: 1em;
+  padding-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.section h2 {
+  color: var(--primary-color);
+  margin-bottom: 1rem;
+  border-bottom: 2px solid var(--secondary-color);
+  padding-bottom: 0.5rem;
+}
+
+/* Recipe List Styling */
+.recipe-list {
+  list-style: none;
+}
+
+.recipe-item {
+  margin-bottom: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.recipe-link {
+  text-decoration: none;
+  color: var(--text-color);
+  padding: 0.5rem;
+  border-radius: 4px;
+  transition: background-color 0.3s;
+  flex-grow: 1;
+}
+
+.recipe-link:hover {
+  background-color: rgba(184, 92, 56, 0.1);
+}
+
+/* Favorite Button Styling */
+.favorite-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ccc;
+  font-size: 2rem;
+  margin-left: 0.5rem;
+  transition: color 0.3s;
+}
+
+.favorite-btn.active {
+  color: #e74c3c;
+}
+
+/* Favorites Section Styling */
+.favorites-section {
+  background-color: rgba(231, 76, 60, 0.1);
+  border-radius: 4px;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+
+.favorites-section h2 {
+  color: #e74c3c;
+}
+
+.hidden {
+  display: none;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+  header {
+    display: block;
+  }
+
+  h1 {
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: static;
+    max-width: none;
+  }
+
+  header {
+    position: relative;
+  }
+}
+
+.recipe-header {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.recipe-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+}
+
+.recipe-iframe {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+}
+
+.back-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.back-link:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}

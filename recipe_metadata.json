@@ -6,7 +6,7 @@
       "recipes": [
         {
           "title": "Thyme and Garlic Cheese Dip",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/thyme-and-garlic-cheese-dip"
         },
         {
           "title": "Crab Cakes with Creamy Shrimp Sauce",
@@ -14,11 +14,11 @@
         },
         {
           "title": "Candied Curried Pecans",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/candied-curried-pecans"
         },
         {
           "title": "Sweet and Spicy Nuts",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/sweet-and-spicy-mixed-nuts"
         }
       ]
     },
@@ -28,51 +28,51 @@
       "recipes": [
         {
           "title": "Spiced Pumpkin Soup",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/spiced-pumpkin-soup"
         },
         {
           "title": "Cabbage Soup with Apples and Thyme",
-          "link": ""
-        },
-        {
-          "title": "Spiced Pumpkin Soup",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/cabbage-soup-with-apples-and-thyme"
         },
         {
           "title": "Arugula Salad with Oranges and Goat Cheese",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/arugula-salad-with-oranges-pomegranate-seeds-and-goat-cheese"
         },
         {
           "title": "Brandy-spiked Squash Soup with Cinnamon",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/calvados-laced-squash-soup-with-cinnamon-and-bay-leaves"
         },
         {
           "title": "Waldorf Salad in Radicchio Cups",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/waldorf-salad-with-cranberries-and-pecans-in-radicchio-cups"
         },
         {
           "title": "Creamy Roasted Mushroom Soup",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/creamy-roasted-mushroom-soup"
         },
         {
           "title": "Blue Cheese Shortbread with Cream Cheese Roulade",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/blue-cheese-shortbread-leaves-with-cream-cheese-chutney-roulade"
         },
         {
           "title": "Spicy Two-bean Vegetarian Chili",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/spicy-two-bean-vegetarian-chili"
         },
         {
           "title": "Potato-leek Soup with Cheese",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/potato-leek-soup-with-cheese"
         },
         {
           "title": "Vegetable-cheese Soup",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/vegetable-cheese-soup"
         },
         {
           "title": "Warm Endive Salad with Parmesan and Hazelnuts",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/warm-endive-salad-with-parmesan-and-hazelnuts"
+        },
+        {
+          "title": "Florentine White Bean Soup with Pasta",
+          "link": "https://www.bonappetit.com/recipe/florentine-white-bean-soup-with-pasta"
         }
       ]
     },
@@ -82,31 +82,31 @@
       "recipes": [
         {
           "title": "Spiced Pumpkin Muffins",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/spiced-pumpkin-muffins"
         },
         {
           "title": "Whole Wheat Porcini Soda Bread",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/whole-wheat-porcini-soda-bread"
         },
         {
           "title": "Blue Cheese Buttermilk Biscuits",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/blue-cheese-buttermilk-biscuits"
         },
         {
           "title": "Caramelized Onion and Parmesan Cream Scones",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/caramelized-onion-and-parmesan-cream-scones"
         },
         {
           "title": "Honeyed Chestnut Corn Bread",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/honeyed-chestnut-corn-bread"
         },
         {
           "title": "Sweet Potato and Apple Bread",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/sweet-potato-apple-and-sage-spoon-bread"
         },
         {
           "title": "Roasted Red Pepper Corn Bread",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/roasted-red-pepper-corn-bread"
         },
         {
           "title": "Quick Buttermilk Cornbread",
@@ -120,15 +120,11 @@
       "recipes": [
         {
           "title": "Pork, Beef, and Black Bean Chili",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/pork-beef-and-black-bean-chili"
         },
         {
           "title": "Chicken Fettuccine with Nuts and Dill",
-          "link": ""
-        },
-        {
-          "title": "Florentine White Bean Soup with Pasta",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/chicken-fettuccine-with-nuts-and-dill"
         },
         {
           "title": "Maple and Walnut Chicken with Pancetta Mashed Potatoes",
@@ -144,31 +140,31 @@
         },
         {
           "title": "Stuffed Turkey Breast",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/turkey-breast-stuffed-with-sausage-fennel-and-golden-raisins"
         },
         {
           "title": "Butterflied Leg of Lamb",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/butterflied-leg-of-lamb-with-thyme-and-orange"
         },
         {
           "title": "Red Snapper with Thyme, Tomatoes, and Olives",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/red-snapper-with-thyme-tomatoes-and-olives"
         },
         {
           "title": "Roast Turkey with Herb Butter and Gravy",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/roast-turkey-with-herb-butter-and-carmalized-onion-gravy"
         },
         {
           "title": "Orange and Mustard Turkey with Apple Cider Gravy",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/orange-and-mustard-basted-turkey-with-apple-cider-mustard-gravy"
         },
         {
           "title": "Molasses-brined Turkey with Gingersnap Gravy",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/molasses-brined-turkey-with-gingersnap-gravy"
         },
         {
           "title": "Porcini-rubbed Turkey with Shiitake-Madeira Gravy",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/porcini-rubbed-turkey-with-shiitake-madeira-gravy"
         },
         {
           "title": "Chili-rubbed Roast Turkey with Chili-butter Gravy",
@@ -176,19 +172,19 @@
         },
         {
           "title": "Gingered Spareribs with Brown Sugar and Soy",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/gingered-spareribs-with-brown-sugar-and-soy"
         },
         {
           "title": "Seared Scallops with Lemon and Dill",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/seared-scallops-with-lemon-and-dill"
         },
         {
           "title": "Shepherd's Pie",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/shepherd-s-pie"
         },
         {
           "title": "Pan-fried steak in Cognac-peppercorn Sauce",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/pan-fried-steak-in-cognac-peppercorn-sauce"
         }
       ]
     },
@@ -202,67 +198,67 @@
         },
         {
           "title": "Cassis-spiked Cranberry Sauce",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/cassis-spiked-cranberry-sauce"
         },
         {
           "title": "Turkey Stock",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/turkey-stock-3"
         },
         {
           "title": "Roasted Root Vegetables with Vinaigrette",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/roasted-root-vegetables-with-thyme-and-marjoram-vinaigrette"
         },
         {
           "title": "Brussels Sprouts with Horseradish Cream",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/brussels-sprouts-and-pearl-onions-in-horseradish-cream"
         },
         {
           "title": "Maple- and Tangerine-glazed Carrots",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/maple-and-tangerine-glazed-carrots"
         },
         {
           "title": "Corn, Chili, and Cumin Saute",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/southwest-corn-chili-and-cumin-saute"
         },
         {
           "title": "Broccoli Gratin with Mustard-Cheese Streusel",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/broccoli-gratin-with-mustard-cheese-streusel"
         },
         {
           "title": "Peas and Turnips with Bacon and Dill Butter",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/peas-and-turnips-with-bacon-and-dill-butter"
         },
         {
           "title": "Green Beans with Orange and Rosemary Gremolata",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/green-beans-with-orange-and-rosemary-gremolata"
         },
         {
           "title": "Wild Mushrooms with Chestnuts and Thyme",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/wild-mushrooms-with-chestnuts-and-thyme"
         },
         {
           "title": "Butternut Squash Puree",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/butternut-squash-puree-with-orange-ginger-and-honey"
         },
         {
           "title": "Parsnips and Celery Root with Nutmeg",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/parsnips-and-celery-root-with-nutmeg"
         },
         {
           "title": "Cranberry, Tangerine, and Ginger Relish",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/cranberry-tangerine-and-crystallized-ginger-relish"
         },
         {
           "title": "Cranberry Sauce with Apricots and Cardamom",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/cranberry-sauce-with-dried-apricots-and-cardamom"
         },
         {
           "title": "Cranberry and Dried-cherry Sauce",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/cranberry-and-dried-cherry-sauce"
         },
         {
           "title": "Cranberry Sauce with Roasted Shallots and Port",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/cranberry-sauce-with-roasted-shallots-and-port"
         },
         {
           "title": "Green Beans with Pine Nuts and Basil",
@@ -277,28 +273,24 @@
           "link": ""
         },
         {
-          "title": "Pecan and Pine Nut Pie",
-          "link": ""
-        },
-        {
           "title": "Waffles with Frizzled(?) Ham and Cream",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/waffles-with-frizzled-ham-and-maple-mustard-cream"
         },
         {
           "title": "Sausage-stuffed Mushrooms",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/sausage-stuffed-mushrooms"
         },
         {
           "title": "Roasted Vegetable Succotash",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/roasted-vegetable-succotash"
         },
         {
           "title": "Wild Rice Pilaf with Squash and Cranberries",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/wild-and-brown-rice-pilaf-with-butternut-squash-and-dried-cranberries"
         },
         {
           "title": "Mushroom and Gruyere Bread Pudding",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/mushroom-and-gruy-re-bread-pudding"
         }
       ]
     },
@@ -308,11 +300,11 @@
       "recipes": [
         {
           "title": "Sweet Potato and Roasted Mushroom Stuffing",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/sweet-potato-and-roasted-mushroom-stuffing"
         },
         {
           "title": "Apple and Sausage Stuffing",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/apple-and-sausage-stuffing"
         },
         {
           "title": "Winter Fruit and Nut Stuffing",
@@ -320,23 +312,23 @@
         },
         {
           "title": "Leek and Mushroom Stuffing",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/leek-and-wild-mushroom-stuffing"
         },
         {
           "title": "Chestnut, Bacon, and Apple Corn Bread Stuffing",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/chestnut-bacon-dried-apple-and-corn-bread-stuffing"
         },
         {
           "title": "Corn Bread Dressing with Ham, Fennel, and Carrots",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/corn-bread-dressing-with-ham-fennel-and-carrots"
         },
         {
           "title": "Artichoke, Sausage, and Parmesan Stuffing",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/artichoke-sausage-and-parmesan-cheese-stuffing"
         },
         {
           "title": "Chorizo, Squash, and Jalapeno Corn Bread Stuffing",
-          "link": ""
+          "link": "https://ouraustintatiouslife.com/2012/11/21/chorizo-squash-and-jalapeno-cornbread-stuffing/"
         }
       ]
     },
@@ -346,39 +338,39 @@
       "recipes": [
         {
           "title": "Sweet Potato Puree with Ginger and Cider",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/sweet-potato-puree-with-ginger-and-cider"
         },
         {
           "title": "Roasted Sweet Potatoes with Onions and Parmesan",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/roasted-sweet-potatoes-and-onions-with-rosemary-and-parmesan"
         },
         {
           "title": "Baked Sweet Potatoes Stuffed with Fruit and Nuts",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/baked-sweet-potatoes-stuffed-with-cranberries-pears-and-pecans"
         },
         {
           "title": "Twice-baked Potato Cups with Shallots",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/twice-baked-potato-cups-with-carmelized-shallots"
         },
         {
           "title": "Fennel-Scented Mashed Potatoes",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/fennel-scented-mashed-potatoes"
         },
         {
           "title": "Red Potatoes with Garlic Butter, Sage, and Bacon",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/red-potatoes-tossed-in-roasted-garlic-butter-with-sage-and-bacon"
         },
         {
           "title": "Mashed Potatoes with Blue Cheese and Rosemary",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/mashed-potatoes-with-creamy-blue-cheese-and-rosemary"
         },
         {
           "title": "Potato Gratin with Gruyere and Creme Fraiche",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/potato-gratin-with-gruy-re-and-cr-me-fra-che"
         },
         {
           "title": "Spiced Whipped Sweet Potatoes with Brown Sugar",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/spiced-whipped-sweet-potatoes-with-brown-sugar"
         },
         {
           "title": "Mashed Potatoes and Parsnips",
@@ -386,7 +378,7 @@
         },
         {
           "title": "Buttery Mashed Potatoes",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/buttery-mashed-potatoes"
         }
       ]
     },
@@ -408,7 +400,7 @@
         },
         {
           "title": "Chocolate Souffles",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/warm-milk-chocolate-souffl-s-with-vanilla-ice-cream"
         },
         {
           "title": "Apple Strudel with Walnuts and Rasins",
@@ -416,47 +408,43 @@
         },
         {
           "title": "Pumpkin and Pecan Semifreddo with Caramel Sauce",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/pumpkin-and-pecan-semifreddo-with-caramel-sauce"
         },
         {
           "title": "Apple Pie with Hazelnuts and Cherries",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/apple-pie-with-hazelnuts-and-dried-sour-cherries"
         },
         {
           "title": "Caramel Walnut Tart with Chocolate Glaze",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/caramel-walnut-tart-with-chocolate-glaze"
         },
         {
           "title": "Cheesecake Tart with Cranberry Port Glaze",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/cheesecake-tart-with-cranberries-in-port-glaze"
         },
         {
           "title": "Sour Cream Maple Cake with Lemon Glaze",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/sour-cream-maple-cake-with-lemon-glaze"
         },
         {
           "title": "Pumpkin Meringue Pie",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/pumpkin-meringue-pie"
         },
         {
           "title": "Maple Creme Flan with Pears",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/maple-cr-me-flan-and-maple-glazed-pears"
         },
         {
           "title": "Gingerbread Cake with Cream Cheese Frosting",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/gingerbread-layer-cake-with-cream-cheese-frosting-and-candied-pistachios"
         },
         {
           "title": "Sweet Potato Tart with Pecans and Marshmallows",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/sweet-potato-tart-with-pecans-and-marshmallows"
         },
         {
           "title": "Pear-cranberry Crisp",
-          "link": ""
-        },
-        {
-          "title": "Cinnamon Ice Cream",
-          "link": ""
+          "link": "https://www.bonappetit.com/recipe/pear-cranberry-crisp-with-cinnamon-ice-cream"
         },
         {
           "title": "Pumpkin Chiffon Pie in Gingersnap Crust",
@@ -464,6 +452,10 @@
         },
         {
           "title": "Banana Layer Cake with White Chocolate Frosting",
+          "link": "https://www.bonappetit.com/recipe/banana-layer-cake-with-white-chocolate-cream-cheese-frosting-and-walnuts"
+        },
+        {
+          "title": "Pecan and Pine Nut Pie",
           "link": ""
         }
       ]

@@ -91,7 +91,7 @@ h1 {
 
 .sidebar li {
   margin-bottom: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .sidebar a {
@@ -119,7 +119,7 @@ h1 {
 .section {
   margin-bottom: 1em;
   padding-top: 0.5rem;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
 }
 
 .section h2 {
@@ -229,8 +229,9 @@ h1 {
 
 .recipe-iframe {
   width: 100%;
-  height: 100%;
+  height: 100vh;
   flex: 1;
+  background-color: white;
 }
 
 .back-link {

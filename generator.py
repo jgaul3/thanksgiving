@@ -41,6 +41,7 @@ def generate_index(*, category_string, section_string):
         </ul>
       </section>
       {section_string}
+      <p> Built for Joe in 2025</p>
     </div>
   </div>
   <script src="script.js"></script>
@@ -106,16 +107,18 @@ def main():
         section["recipes"].sort(key=lambda x: x["title"])
 
         for index, recipe in enumerate(section["recipes"]):
-            inner_link = "#"
-            if recipe["link"]:
-                _other, suffix = recipe["link"].rsplit("/", 1)
-                inner_link = f"{RECIPE_DIRECTORY}/{suffix}.html"
-                with open(inner_link, "w") as recipe_file:
-                    recipe_file.write(
-                        generate_recipe_page(
-                            recipe_name=recipe["title"], recipe_link=recipe["link"]
-                        )
+            inner_link = recipe["link"].strip("/")
+            if not inner_link:
+                continue
+
+            _other, suffix = inner_link.rsplit("/", 1)
+            inner_link = f"{RECIPE_DIRECTORY}/{suffix}.html"
+            with open(inner_link, "w") as recipe_file:
+                recipe_file.write(
+                    generate_recipe_page(
+                        recipe_name=recipe["title"], recipe_link=recipe["link"]
                     )
+                )
 
             recipes.append(
                 generate_recipe_list_item(

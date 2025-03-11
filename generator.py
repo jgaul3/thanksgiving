@@ -78,7 +78,6 @@ def generate_recipe_page(*, recipe_name, recipe_link):
 </head>
 <body>
   <div class="recipe-header">
-    <h1>Thanksgiving Recipes</h1>
     <a href="../{INDEX_NAME}" class="back-link">← Back to Recipes</a>
   </div>
   <iframe class="recipe-iframe" src="{recipe_link}" sandbox="allow-same-origin allow-scripts"></iframe>
